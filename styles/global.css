@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .footer__ul {
+        @apply flex justify-center flex-col items-start
+    }
+    input {
+        @apply bg-transparent border-b-2 py-2 outline-none;
+    }
+    .cards {
+        @apply flex items-start hover:bg-gray-100 cursor-pointer py-2 pl-2 hover:border-l-2 hover:border-blue-700 
+    }
+    .info {
+        @apply m-2
+    }
+    .info p {
+        @apply text-gray-800 
+    }
+}
+.over__head {
+    background-image: url("../img/hotel_bg.jpg");
+    background-position: center center;
+    object-fit: contain;
+    background-size: cover;
+}
+main {
+    background-color: rgba(51, 51, 51, 0.397);
+    height: 80vh;
+}
+.botm {
+    max-height: 340px;
+    max-width: 259px;
+}
+/* Width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+/* track */
+::-webkit-scrollbar-track {
+    background: #b5b8bb;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #010729;
+}
+.left {
+    flex: 0.45;
+}
+.right {
+    flex: 0.55;
+    width: 100%;
+    height: 100%;
+}
+.leftAbout {
+    flex: 0.4;
+}
+.rightAbout {
+    flex: 0.6;
+    width: 100%;
+    height: 100%;
+}
+.line {
+    width: 50px;
+    height: 2px;
+}
+nav {
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.nav__top{
+    padding: 6px 6px 6px 6px;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.712);
+    font-size: xx-small;
+    color: rgb(165, 164, 164);
+}
+.nav__top > p span {
+    font-size: xx-small;
+}
+.title_p {
+    font-size: x-small;
+}
+.title_h {
+    font-size: small;
+}
+.title_p > span {
+    font-size: x-small;
+}
+.header__section {
+    z-index: 1;
+    margin-top: -133px;
+}
+.promotion__code {
+    margin-top: -83px;
+    position: relative;
+    box-shadow: 0 0 25px 8px rgba(119, 119, 119, 0.2), 0 0 25px 8px rgba(95, 95, 95, 0.2);
+}
+.boxes {
+    padding-right: 20px;
+}
