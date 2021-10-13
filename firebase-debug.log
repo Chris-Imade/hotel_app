@@ -1,0 +1,21 @@
+[debug] [2021-10-13T09:36:30.024Z] ----------------------------------------------------------------------
+[debug] [2021-10-13T09:36:30.052Z] Command:       /home/anonymous/.nvm/versions/node/v14.17.6/bin/node /usr/local/bin/firebase init
+[debug] [2021-10-13T09:36:30.053Z] CLI Version:   9.18.0
+[debug] [2021-10-13T09:36:30.053Z] Platform:      linux
+[debug] [2021-10-13T09:36:30.053Z] Node Version:  v14.17.6
+[debug] [2021-10-13T09:36:30.521Z] Time:          Wed Oct 13 2021 10:36:30 GMT+0100 (West Africa Standard Time)
+[debug] [2021-10-13T09:36:30.521Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-13T09:36:30.767Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-13T09:36:30.768Z] > authorizing via signed-in user (jephthahimade@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/anonymous/Mine/youtube projects/hotel-app
+
